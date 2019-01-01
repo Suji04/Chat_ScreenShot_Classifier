@@ -5,4 +5,6 @@ This convolutional neural network can predict if an input image is a chat screen
 I have a couple of friends who send me a lot of chat screen-shots. Gradually my phone gallery became filled with them. So I thought it would be nice if I can make a model which can seperate the chat screen-shots from other images for me :P 
 
 # Try yourself :
-If you want to predict your own image then pass the path of your image in **load_image()** function in line **21** of the file *load model and predict.py*  Have fun!
+Download the model from : https://drive.google.com/open?id=1k99ndVPuxI3kDGs6or2rSUWPC5LSjF-9
+Save the model in same the directory.
+Pass the path of your image in **load_image()** function in line **21** of the file *load model and predict.py*  Have fun!
