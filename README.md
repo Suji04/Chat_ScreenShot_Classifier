@@ -6,5 +6,7 @@ I have a couple of friends who send me a lot of chat screen-shots. Gradually my 
 
 # Try yourself :
 Download the model from : https://drive.google.com/open?id=1k99ndVPuxI3kDGs6or2rSUWPC5LSjF-9
-Save the model in same the directory.
+
+Save the model in same the directory where you saved the two *.py* files.
+
 Pass the path of your image in **load_image()** function in line **21** of the file *load model and predict.py*  Have fun!
