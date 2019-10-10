@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	margin: 0;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #FF5555;
+}
+
+.all{
+	text-align: center;
+	width: 100%;
+}
+button:focus{
+	outline:0;
+}
+
+#header{
+	background-color:#FF6655;
+	margin: 0 0 20px 0;
+	padding: 20px 0 20px 0;
+}
+
+h1{
+	margin: 10px;
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+h1 span { color: #4A6572; font-weight: 400; }
+
+html{
+	height: 100%;
+}
+
+.pic{
+	margin: 0 0 0 0;
+	padding: 0;
+	height: 290px;
+}
+
+#display-img{
+	height: 280px;
+	width: 280px;
+	border-radius: 5px;
+}
+
+.ins{
+	font-size: 18px;
+	background-color: #FFF;
+	border-radius: 5px;
+	color: #FFF;
+	text-align: center;
+	width: 50%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.btn1 {
+  background-color: #ef8f00; 
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  margin: 10px 30px 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.btn1:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pred{
+	font-style: italic;
+	font-size: 25px;
+}
+
+.b2{
+	color: #232F34;
+}
+
+.b1{
+	color : #344955;
+}
+
+
+
