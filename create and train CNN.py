@@ -7,7 +7,6 @@ from keras.layers import Dense
 classifier = Sequential()
 
 classifier.add(Convolution2D(32, 3, 3, input_shape = (64, 64, 3), activation = 'relu'))
-
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
 classifier.add(Convolution2D(32, 3, 3, activation = 'relu'))
@@ -49,4 +48,6 @@ classifier.fit_generator(
         validation_data=test_set,
         validation_steps=132)
 
-classifier.save("model.h5")
+
+
+classifier.save("model2.h5")

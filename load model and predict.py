@@ -18,8 +18,14 @@ def load_image(img_path, show=True):
         plt.show()
     return img_tensor
 
+'''for img in glob.glob("test*.jpg"):
+    new_image = load_image(img)
+    pred = classifier.predict(new_image)
+    if pred<.5 : print("chat")
+    else : print("not chat")'''
+
 new_image = load_image("test.png")
-pred = classifier.predict(new_image)
+pred = classifier._make_predict_function(new_image)
 if pred<.5 : print("chat")
 else : print("not chat")
 
