@@ -26,7 +26,7 @@ for img_file in glob.iglob("dir_name/*"):
   else : print("not chat")'''
 
 new_image = load_image("test.png")
-pred = classifier._make_predict_function(new_image)
+pred = classifier._make_predict_function(new_image)        # predict() function may be used when flask is not used 
 if pred<.5 : print("chat")
 else : print("not chat")
 
