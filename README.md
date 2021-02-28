@@ -10,3 +10,17 @@ https://screen-shot-classifier.herokuapp.com/
 # Model :
 Download the model from : https://drive.google.com/open?id=1k99ndVPuxI3kDGs6or2rSUWPC5LSjF-9
 
+# Try standalone prediction code.
+python screenshot_predict.py [files]
+
+# To train a new model, first populate files in two subdirectories each of directories named test_set and training_set,
+# You can pick random files for testing and move them to the test directory.  Specify the number to move as 10-20% of samples
+cd training_set/chats
+ls | shuf -n 20 | xargs -i mv {} ../../test_set/chats
+cd ../others
+ls | shuf -n 20 | xargs -i mv {} ../../test_set/others
+cd ../..
+
+# Then run the training code.
+# It may be necessart to adjust `steps_per_epoch` in the code to match #images / batch_size
+python screenshot_train.py
